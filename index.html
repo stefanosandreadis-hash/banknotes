@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banknotes Archive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="img/temp/duckface.png">
+<script src="js/pace.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<link rel="Stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>		
+<div class="conteneur" id="0">
+  <img class="" src="img/Image.png">
+  <img class="" src="img/Image-1.png">
+  <img class="" src="img/Image-2.png">
+  <img class="" src="img/Image-3.png">
+  <img class="" src="img/Image-4.png">
+  <img class="" src="img/Image-5.png">
+  <img class="" src="img/Image-6.png">
+  <img class="" src="img/Image-7.png">
+  <img class="" src="img/Image-8.png">
+  <img class="" src="img/Image-9.png">
+</div>
+
+<div class="conteneur" id="1">
+  <img class="" src="img/Image-10.png">
+  <img class="" src="img/Image-11.png">
+  <img class="" src="img/Image-12.png">
+  <img class="" src="img/Image-13.png">
+  <img class="" src="img/Image-14.png">
+  <img class="" src="img/Image-15.png">
+  <img class="" src="img/Image-16.png">
+  <img class="" src="img/Image-17.png">
+  <img class="" src="img/Image-18.png">
+  <img class="" src="img/Image-19.png">
+</div>
+
+<div class="conteneur" id="2">
+  <img class="" src="img/Image-20.png">
+  <img class="" src="img/Image-21.png">
+  <img class="" src="img/Image-22.png">
+  <img class="" src="img/Image-23.png">
+  <img class="" src="img/Image-24.png">
+  <img class="" src="img/Image-25.png">
+  <img class="" src="img/Image-26.png">
+  <img class="" src="img/Image-27.png">
+  <img class="" src="img/Image-28.png">
+  <img class="" src="img/Image-29.png">
+</div>
+
+<div class="conteneur" id="3">
+  <img class="" src="img/Image-30.png">
+  <img class="" src="img/Image-31.png">
+  <img class="" src="img/Image-32.png">
+  <img class="" src="img/Image-33.png">
+  <img class="" src="img/Image-34.png">
+  <img class="" src="img/Image-35.png">
+  <img class="" src="img/Image-36.png">
+  <img class="" src="img/Image-37.png">
+  <img class="" src="img/Image-38.png">
+  <img class="" src="img/Image-39.png">
+</div>
+
+<div class="conteneur" id="4">
+  <img class="" src="img/Image-40.png">
+  <img class="" src="img/Image-41.png">
+  <img class="" src="img/Image-42.png">
+  <img class="" src="img/Image-43.png">
+  <img class="" src="img/Image-44.png">
+  <img class="" src="img/Image-45.png">
+  <img class="" src="img/Image-46.png">
+  <img class="" src="img/Image-47.png">
+  <img class="" src="img/Image-48.png">
+</div>
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
+<script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+$(".conteneur").smoothDivScroll({ 
+mousewheelScrolling: "horizontal",
+touchScrolling: true,
+autoScrollingMode: "always",
+mousewheelScrollingStep: 5,
+hotSpotScrolling: false,
+			});
+
+// Mouse over
+$(".conteneur").bind("mouseover", function(){
+$(this).next('.notes').css("display","block");
+$(this).smoothDivScroll("stopAutoScrolling");
+});
+
+// Mouse out
+$(".conteneur").bind("mouseout", function(){
+$(this).next('.notes').css("display","none");
+$(this).smoothDivScroll("startAutoScrolling"); }); });
+</script>
+	
+	<div class="info"><a href="#" class="jqModal">Overview</a></div>
+	
+	<div class="menu" id="dialog">
+	<h1>The project began in 2014, amidst the deepening economic crisis
+in Greece, using news headlines to reintroduce human stories into
+the arches of the banknotes. These figures depict scenes of struggle,
+resilience, and violence that erupted during the crisis, turning the
+currency into an archive of the era in which it exists. By putting these
+defaced banknotes back into circulation, they become silent
+messengers, circulating all over Europe like a “message in a bottle.”
+The scenes are a reminder that the impact of an economic crisis
+is not abstract, but human. The project is still ongoing, documenting
+and evolving with the passage of time.<br><br>
+
+<p>Greece’s Entry into the EU and the Debt Crisis<br>
+Greece joined the European Union in 1981 and in 2001 replaced its national currency,
+the drachma, with the euro in order to align its economy with the rest of the Eurozone.
+Greece's financial vulnerabilities were exposed by the global financial crisis of 2008,
+and by 2010, the country was facing a severe debt crisis. In exchange for bailout funds
+from the International Monetary Fund, the European Central Bank, and the European
+Commission, Greece imposed drastic austerity measures that led to mass protests,
+unemployment, and deep social unrest. While the media sensationalized Greece’s crisis,
+the true complexity of the country’s situation was typically ignored.<br><br>
+
+The Symbolism of the Euro<br>
+The euro is the official currency of the Eurozone and is in cross-border circulation.
+Designed by the European Central Bank during the presidency of Mario Draghi, it is a symbol
+of unity and highlights the connection between European cultures,histories, and the future.
+Unlike Greece’s previous banknotes (drachma), which featured Greek historical figures,
+the euro designs are stylized portrayals of architectural periods, with abstract elements
+including bridges, buildings, and tracery windows. The removal of national symbols and
+human figures erases any direct cultural or national identity, symbolizing instead a broader,
+collective European identity shared by all members of the Eurozone. The absence human
+figures in the original design is significant. While the euro is a symbol of unity among
+European nations, its absence of human element contrasts with the day-to-day experiences
+of people—the very people who are impacted by economic policies.<br><br>
+
+— Stefanos Andreadis was born in London and works as a graphic designer in Athens,
+Greece. His personal work examines how the news media shape and frame narratives.
+The banknotes have been exhibited at the British Museum, at KKoutlet in London, at the
+Bienal del Sur in Venezuela, at the Money Museum of the German Central Bank in Frankfurt,
+and are included in the New Alphabet School organized by the Haus der Kulturen der Welt
+(HKW) in Berlin, among others.</h1>
+	<p>Follow me on <a href="https://www.instagram.com/stefanosandreadis/" class="pagelink" target= "blank">instagram</a> or contact <a href="mailto:stefanosandreadis@gmail.com" class="pagelink" target="_top">here</a>.<p>
+	<p>The banknote archive is currently undergoing curation. © 2014–(Present).</p>
+	<script type="text/javascript">$().ready(function() {$('#dialog').jqm();});</script>
+	</div>
+
+</body>
+</html>
